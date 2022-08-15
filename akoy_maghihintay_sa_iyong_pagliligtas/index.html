@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+        <meta charset="UTF-8" />
+<meta name="description" content="Free Web Music" />
+<meta name="keywords" content="HTML,CSS, JavaScript" />
+<meta name="author" content="Jayar Tibay" />
+  <title>Ako'y Maghihintay Sa Iyong Pagliligtas</title>
+  <link rel="shortcut icon" href="https://drive.google.com/uc?id=10VpD-JKUp34bVSE8c-IQe5xchVbTtPy_" />
+  <link rel="stylesheet" type="text/css" href="../media_assets/css/style3.css">
+  <!--link rel="stylesheet" type="text/css" href="../media_assets/css/menu.css"->
+</head>
+<body style="background-color:black;color:white;">
+<!--div class="menu">
+<?php include '../../../php/menu/menu.php';?>
+</div-->
+<br>
+      <br>
+  <audio autoplay controls  id="Player" src="https://drive.google.com/uc?id=18sTLjlEtrTWspFhQPr_wxpvPyQHmcSPf"><marquee direction="left" behavior="scroll" bgcolor="#00FF66" onmouseover="this.stop()" onmouseout="this.start()"><strong>Note:</strong> The audio tag is not supported in Internet Explorer 8 and earlier versions.</marquee></audio>
+<br>
+        <!--marquee direction="left" behavior="alternate" bgcolor="#00FF66" onmouseover="this.stop()" onmouseout="this.start()" onclick="history.back()"><strong><a href= "../../loader/">Main Menu</a></strong></marquee-->
+      <br> 
+      <br>
+    <font class="h">
+    <script type="text/javascript" src="../media_assets/json/color_1.json"></script>
+      <script type="text/javascript" src="../media_assets/js/akoy_maghihintay_sa_iyong_pagliligtas.js"></script>
+      <script type="text/javascript" src="../media_assets/js/scroll_title.js"></script>
+      <script type="text/javascript">
+      
+      var Player = document.getElementById('Player');
+Player.onended = function(){
+    window.location.href = "../ama,_kami_ay_sa_iyo_pa_rin/";
+    } 
+    console.log(Player);
+      </script>
+      <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    </font>
+    <br>
+        <marquee direction="right" behavior="alternate" bgcolor="#00FF66" onmouseover="this.stop()" onmouseout="this.start()" onclick="next()"><strong><a href= "../ama,_kami_ay_sa_iyo_pa_rin/">Next</a></strong></marquee>
+</body>
+</html>
