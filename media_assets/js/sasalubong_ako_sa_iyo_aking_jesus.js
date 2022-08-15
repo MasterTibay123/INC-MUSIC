@@ -51,7 +51,7 @@ farben = farben.concat(farben);
 farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
 } 
 setInterval("farbtauscher()",4000); 
-text= "Ako'y Maghihintay Sa Iyong Pagliligtas"; //h 
+text= "Sasalubong Ako Sa Iyo Aking Jesus"; //h 
 string2array(text); 
 divserzeugen();
 //document.write(text); 
@@ -65,7 +65,7 @@ document.getElementById("loader").style.display = "none";
 }
 
 // desktop and mobile view
-/*
+
 var viewMode = getCookie("view-mode"); 
 if (viewMode == "mobile"){ 
 viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no'); 
@@ -73,4 +73,3 @@ viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-s
 else if(viewMode == "desktop"){ 
 viewport.setAttribute('content', 'width=1024'); 
 }
-*/

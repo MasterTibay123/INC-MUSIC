@@ -51,7 +51,7 @@ farben = farben.concat(farben);
 farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
 } 
 setInterval("farbtauscher()",4000); 
-text= "Ako'y Maghihintay Sa Iyong Pagliligtas"; //h 
+text= "Ama, Kami Ay Sa Iyo Pa Rin"; //h 
 string2array(text); 
 divserzeugen();
 //document.write(text); 
